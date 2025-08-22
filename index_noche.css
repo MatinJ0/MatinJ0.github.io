@@ -1,0 +1,205 @@
+html, body, header {
+    margin: 0%;
+    background-color: rgb(3, 3, 3);
+    font-family: sans-serif;
+    color: rgb(230, 230, 230);
+}
+
+.headerDiv {
+    background-color: rgb(1, 1, 1);
+    width: 100%;
+    height: 100px;
+}
+
+.img--logo {
+    position: absolute;
+    top: 1px;
+    left: 30px;
+    height: 98px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    gap: 40px;
+    padding-top: 40px;
+    
+}
+
+.a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: rgb(228, 228, 228);
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid rgb(2, 2, 2);
+}
+
+.a:hover {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(223, 223, 223);
+    
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(223, 223, 223);
+    color: rgb(228, 228, 228);
+}
+
+h1 {
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.img--tip {
+    position: absolute;
+    border-radius: 5px;
+    height: 200px;
+    left: 880px;
+    top: 235px;
+}
+
+.tempDiv {
+    background-color: rgb(9, 0, 43);;
+    width: 400px;
+    height: 185px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.temperatura {
+    font-family: sans-serif;
+    font-size: 70px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.img--termometro {
+    position: absolute;
+    right: 1240px;
+    top: 278px;
+}
+
+.p--temperatura {
+    position: absolute;
+    font-size: 80px;
+    left: 100px;
+    top: 170px;
+}
+
+
+.h2--subtituloArg {
+    font-size: 31px;
+    padding-left: 40px;
+    padding-top: 150px;
+    margin: 0%;
+}
+
+.img--anuncio {
+    position: absolute;
+    height: 500px;
+    left: 990px;
+    top: 1290px;
+}
+
+.p--texto {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.img--notiArg {
+    position: absolute;
+    padding-left: 40px;
+}
+
+.p--textoDebajo {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 500px;
+}
+
+
+.h3--subtituloMundo {
+    font-size: 31px;
+    padding-left: 40px;
+    padding-top: 65px;
+}
+
+h5 {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.img--imaguenEEUU {
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.p--textoMundo {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.h3--subtiApi {
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.h3--contac {
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+
+.h2--subtituloForm {
+    padding-top: 50px;
+    padding-left: 40px
+}
+
+.label--name {
+    padding-left: 150px;
+}
+
+.input--name {
+    margin-left: 150px;
+    width: 300px;
+    height: 27px;
+    left: 100px;
+}
+
+.label--email {
+    padding-left: 150px;
+}
+
+.input--email {
+    margin-left: 150px;
+    width: 300px;
+    height: 27px;
+    left: 100px;
+}
+
+.label--menssage {
+    padding-left: 150px;
+}
+
+.text--message {
+    margin-left: 150px;
+    width: 300px;
+    height: 27px;
+    left: 100px;
+}
+
+.button--submit {
+    position: absolute;
+    left: 255px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+}
